@@ -5,9 +5,6 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ master, feature/#12_implement_job_execution ]
-  pull_request:
-    branches: [ master, feature/#12_implement_job_execution ]
 
 jobs:
   build:
